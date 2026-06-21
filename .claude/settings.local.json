@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "PowerShell($env:NODE_OPTIONS='--require ./node-compat.cjs'; npx next dev --turbopack)"
+    ]
+  }
+}
